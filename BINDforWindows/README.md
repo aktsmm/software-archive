@@ -5,8 +5,9 @@ Windows向けのBIND 9.10 DNSサーバーのアーカイブです。
 ## 📋 目次
 
 - [概要](#概要)
-- [背景](#背景)
 - [ディレクトリ構造](#ディレクトリ構造)
+- [使用方法](#使用方法)
+- [背景](#背景)
 - [現状とWindows対応について](#現状とwindows対応について)
 - [代替手段](#代替手段)
 - [注意事項](#注意事項)
@@ -48,6 +49,53 @@ ISC BIND 9/
     ├── nsupdate.exe
     └── uv.dll
 ```
+
+## 🚀 使用方法
+
+### 基本的な使用手順
+
+1. **アーカイブの解凍**
+   - `ISC BIND 9.zip` を適当なフォルダに解凍してください
+   - 推奨解凍先: `C:\Program Files\ISC BIND 9\` または `C:\BIND\`
+
+2. **環境変数PATHの設定**
+   
+   **方法1: システム環境変数で設定（推奨）**
+   - `Win + R` → `sysdm.cpl` → `環境変数` をクリック
+   - システム環境変数の `Path` を選択して `編集`
+   - `新規` をクリックして `C:\Program Files\ISC BIND 9\bin` を追加
+   - `OK` でダイアログを閉じる
+
+   **方法2: コマンドプロンプトで一時的に設定**
+   ```cmd
+   set PATH=%PATH%;C:\Program Files\ISC BIND 9\bin
+   ```
+
+3. **動作確認**
+   
+   新しいコマンドプロンプトを開いて以下のコマンドで確認：
+   ```cmd
+   nslookup www.google.com
+   dig www.google.com
+   host www.google.com
+   ```
+
+### 主なツール
+
+- **nslookup.exe**: DNSクエリツール（Windows標準のnslookupと同じ）
+- **dig.exe**: より詳細なDNSクエリツール
+- **host.exe**: シンプルなDNSルックアップツール
+- **nsupdate.exe**: 動的DNS更新ツール
+- **BINDInstall.exe**: インストーラー（管理者権限が必要）
+
+### インストーラーの使用
+
+管理者権限でコマンドプロンプトを開き：
+```cmd
+BINDInstall.exe
+```
+
+> ⚠️ **注意**: インストーラーは古いバージョンのため、最新のWindowsでは正常に動作しない場合があります。手動での解凍・設定を推奨します。
 
 ## 🔎 背景
 
