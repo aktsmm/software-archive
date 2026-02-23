@@ -54,3 +54,8 @@
 ---
 
 *このアーカイブは教育および研究目的で維持されています。商用利用については各ソフトウェアのライセンス条項を確認してください。*
+
+
+## Third-Party Notices
+See [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md).
+
