@@ -10,3 +10,6 @@ This repository contains third-party software archives for historical preservati
 
 If you use or redistribute any third-party content, you are responsible for complying with the upstream license terms.
 
+
+
+Note: Third-party archives under BINDforWindows/ are 'otherwise noted' and remain under their original licenses.
