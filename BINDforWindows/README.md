@@ -170,6 +170,16 @@ Windows で BIND を使用したい場合の選択肢：
 - 可能な限り、**現在もサポートされている代替手段の使用を推奨**します
 - **使用は自己責任でお願いします**
 
+### ライセンス（重要）
+
+- 本ディレクトリの BIND 9.10.x (Windows) は **第三者ソフトウェア（ISC 配布物）**です。権利は ISC および各依存ライブラリの著作権者に帰属します。
+- 現在このリポジトリに同梱されている `ISC BIND 9.zip` / `ISC BIND 9/` は **バイナリ中心で、LICENSE / NOTICE 等のライセンス条文ファイルが同梱されていません**。
+- 利用・再配布の可否・条件は upstream のライセンスに従ってください（第三者依存も含む）。
+
+参照:
+- ISC BIND: https://www.isc.org/bind/ / https://www.isc.org/downloads/
+- OpenSSL: https://www.openssl.org/source/license.html
+
 ## 📚 参考リンク
 
 - [ISC BIND 公式サイト](https://www.isc.org/bind/)
@@ -178,3 +188,4 @@ Windows で BIND を使用したい場合の選択肢：
 ---
 
 *このアーカイブは教育および研究目的で維持されています。*
+

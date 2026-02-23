@@ -13,3 +13,8 @@ If you use or redistribute any third-party content, you are responsible for comp
 
 
 Note: Third-party archives under BINDforWindows/ are 'otherwise noted' and remain under their original licenses.
+
+### Bundled libraries (as shipped)
+
+The archived BIND binaries include bundled third-party libraries (e.g., OpenSSL `libcrypto`/`libssl`, `libxml2`). Their licenses apply.
+- OpenSSL: https://www.openssl.org/source/license.html
