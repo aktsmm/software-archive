@@ -47,7 +47,7 @@
 
 ## 📄 ライセンス
 
-このリポジトリのドキュメント/スクリプト等は MIT ライセンスです（詳細: [LICENSE](LICENSE)）。第三者ソフトウェア（例: `BINDforWindows/` 配下）は原著作者のライセンスが適用されます（詳細: [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md)）。
+このリポジトリの追加ドキュメント等は CC BY-NC-SA 4.0 です。詳細については[LICENSE](LICENSE)ファイルを参照してください。
 
 個々のアーカイブされたソフトウェアは、それぞれ独自のライセンスを持つ場合があります。各ソフトウェアのライセンス情報については、対応するディレクトリを確認してください。
 
@@ -58,6 +58,7 @@
 
 ## Third-Party Notices
 See [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md).
+
 
 
 
