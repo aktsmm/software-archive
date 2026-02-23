@@ -47,7 +47,7 @@
 
 ## 📄 ライセンス
 
-このプロジェクトはMITライセンスの下で公開されています。詳細については[LICENSE](LICENSE)ファイルを参照してください。
+このリポジトリのドキュメント/スクリプト等は MIT ライセンスです（詳細: [LICENSE](LICENSE)）。第三者ソフトウェア（例: `BINDforWindows/` 配下）は原著作者のライセンスが適用されます（詳細: [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md)）。
 
 個々のアーカイブされたソフトウェアは、それぞれ独自のライセンスを持つ場合があります。各ソフトウェアのライセンス情報については、対応するディレクトリを確認してください。
 
@@ -58,4 +58,5 @@
 
 ## Third-Party Notices
 See [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md).
+
 
